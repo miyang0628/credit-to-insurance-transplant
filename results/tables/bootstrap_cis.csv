@@ -1,0 +1,17 @@
+metric,estimate,ci_lo,ci_hi,n,method
+credit_selection_rate_female,0.7548,0.704,0.7994,310,Wilson
+credit_selection_rate_male,0.7855,0.7533,0.8145,690,Wilson
+credit_proxy_auc,0.698,0.6617,0.7321,1000,bootstrap
+health_premium_ratio_sexblind,1.1566,1.0543,1.265,1338,bootstrap
+health_high_premium_DI_ratio,0.754,0.6242,0.9023,1338,bootstrap
+health_proxy_auc,0.4455,0.4166,0.4763,1338,bootstrap
+fds_fpr_MALE,0.1725,0.1362,0.2161,342,Wilson (negatives)
+fds_fpr_FEMALE,0.163,0.1305,0.2018,411,Wilson (negatives)
+fds_restoration_rate,0.4762,0.391,0.5628,126,Wilson
+llm_faithfulness_weak,0.1333,0.0222,0.2667,15,bootstrap
+llm_recourse_valid_weak,0.0,0.0,0.2039,15,Wilson
+llm_faithfulness_mid,0.3333,0.2,0.4667,15,bootstrap
+llm_recourse_valid_mid,0.0667,0.0119,0.2982,15,Wilson
+llm_faithfulness_strong,0.3778,0.2444,0.5111,15,bootstrap
+llm_recourse_valid_strong,0.0667,0.0119,0.2982,15,Wilson
+credit_model_protected_reliance,0.9333,0.7018,0.9881,15,Wilson

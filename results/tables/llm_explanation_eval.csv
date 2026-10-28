@@ -1,0 +1,4 @@
+tier,model,faithfulness_mean,recourse_valid_rate,protected_mention_rate,n
+weak,gpt-4o-mini,0.13333333333333333,0.0,0.0,15
+mid,gpt-5.4-mini,0.3333333333333333,0.06666666666666667,0.0,15
+strong,gpt-5.4,0.3777777777777777,0.06666666666666667,0.0,15
